@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2ECC71</color>
+    <color name="colorPrimaryDark">#21BC14</color>
+    <color name="colorAccent">#12EA00</color>
+
+    <color name="txtUserName">#000000</color>
+    <color name="txtPassword">#000000</color>
+    <color name="bLogin">#26AA1C</color>
+    <color name="bTextLogin">#FFFFFF</color>
+
+    <color name="bOnOff">#26AA1C</color>
+    <color name="bTextOnOff">#FFFFFF</color>
+    <color name="bSchedule">#21D312  </color>
+    <color name="bScheduleText">#FFFFFF</color>
+    <color name="bManual">#21D312  </color>
+    <color name="bManualText">#FFFFFF</color>
+
+    <color name="txtTopic">#11AB05  </color>
+    <color name="bRegister">#26AA1C</color>
+    <color name="bRegisterText">#FFFFFF</color>
+
+    <color name="txtSignOut">#26AA1C</color>
+
+    <color name="buttons">#26AA1C</color>
+
+</resources>

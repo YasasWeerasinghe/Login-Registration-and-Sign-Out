@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="@color/txtTopic"
+            android:textSize="30sp"
+            android:text="iBin Registration"/>
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:text="Email "
+            android:textSize="18sp" />
+        <!--user email field-->
+        <EditText
+            android:id="@+id/txtRegUserName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:hint="Enter your email address"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:text="Password" />
+
+        <!--password field-->
+        <EditText
+            android:id="@+id/txtRegPassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Enter your password (6 characters)"
+            android:inputType="textPassword"
+            android:textSize="18sp" />
+
+        <!--retyped password field-->
+        <EditText
+            android:id="@+id/txtRegRePassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:hint="Enter your password again "
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <!--register button-->
+        <Button
+            android:id="@+id/bRegister"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/buttons"
+            android:backgroundTint="@color/bRegister"
+            android:textColor="@color/bRegisterText"
+            android:onClick="bRegisterUser"
+            android:text="Register" />
+
+        <!--link to login gui-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:textSize="18sp"
+            android:onClick="alreadyRegisteredLink"
+            android:text="Already registered"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
